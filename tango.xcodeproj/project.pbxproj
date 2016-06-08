@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4EA955C1D080C2300268BDE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA955B1D080C2300268BDE /* AppDelegate.swift */; };
+		F4EA955E1D080C2300268BDE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA955D1D080C2300268BDE /* ViewController.swift */; };
+		F4EA95611D080C2300268BDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EA955F1D080C2300268BDE /* Main.storyboard */; };
+		F4EA95631D080C2300268BDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4EA95621D080C2300268BDE /* Assets.xcassets */; };
+		F4EA95661D080C2300268BDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4EA95641D080C2300268BDE /* LaunchScreen.storyboard */; };
+		F4EA95711D080C2300268BDE /* tangoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA95701D080C2300268BDE /* tangoTests.swift */; };
+		F4EA957C1D080C2300268BDE /* tangoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4EA957B1D080C2300268BDE /* tangoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4EA956D1D080C2300268BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4EA95501D080C2300268BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EA95571D080C2300268BDE;
+			remoteInfo = tango;
+		};
+		F4EA95781D080C2300268BDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4EA95501D080C2300268BDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4EA95571D080C2300268BDE;
+			remoteInfo = tango;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4EA95581D080C2300268BDE /* tango.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tango.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EA955B1D080C2300268BDE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4EA955D1D080C2300268BDE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4EA95601D080C2300268BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4EA95621D080C2300268BDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4EA95651D080C2300268BDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4EA95671D080C2300268BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EA956C1D080C2300268BDE /* tangoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tangoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EA95701D080C2300268BDE /* tangoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tangoTests.swift; sourceTree = "<group>"; };
+		F4EA95721D080C2300268BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4EA95771D080C2300268BDE /* tangoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tangoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4EA957B1D080C2300268BDE /* tangoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tangoUITests.swift; sourceTree = "<group>"; };
+		F4EA957D1D080C2300268BDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4EA95551D080C2300268BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA95691D080C2300268BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA95741D080C2300268BDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4EA954F1D080C2300268BDE = {
+			isa = PBXGroup;
+			children = (
+				F4EA955A1D080C2300268BDE /* tango */,
+				F4EA956F1D080C2300268BDE /* tangoTests */,
+				F4EA957A1D080C2300268BDE /* tangoUITests */,
+				F4EA95591D080C2300268BDE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4EA95591D080C2300268BDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA95581D080C2300268BDE /* tango.app */,
+				F4EA956C1D080C2300268BDE /* tangoTests.xctest */,
+				F4EA95771D080C2300268BDE /* tangoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4EA955A1D080C2300268BDE /* tango */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA955B1D080C2300268BDE /* AppDelegate.swift */,
+				F4EA955D1D080C2300268BDE /* ViewController.swift */,
+				F4EA955F1D080C2300268BDE /* Main.storyboard */,
+				F4EA95621D080C2300268BDE /* Assets.xcassets */,
+				F4EA95641D080C2300268BDE /* LaunchScreen.storyboard */,
+				F4EA95671D080C2300268BDE /* Info.plist */,
+			);
+			path = tango;
+			sourceTree = "<group>";
+		};
+		F4EA956F1D080C2300268BDE /* tangoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA95701D080C2300268BDE /* tangoTests.swift */,
+				F4EA95721D080C2300268BDE /* Info.plist */,
+			);
+			path = tangoTests;
+			sourceTree = "<group>";
+		};
+		F4EA957A1D080C2300268BDE /* tangoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4EA957B1D080C2300268BDE /* tangoUITests.swift */,
+				F4EA957D1D080C2300268BDE /* Info.plist */,
+			);
+			path = tangoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4EA95571D080C2300268BDE /* tango */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EA95801D080C2300268BDE /* Build configuration list for PBXNativeTarget "tango" */;
+			buildPhases = (
+				F4EA95541D080C2300268BDE /* Sources */,
+				F4EA95551D080C2300268BDE /* Frameworks */,
+				F4EA95561D080C2300268BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tango;
+			productName = tango;
+			productReference = F4EA95581D080C2300268BDE /* tango.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4EA956B1D080C2300268BDE /* tangoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EA95831D080C2300268BDE /* Build configuration list for PBXNativeTarget "tangoTests" */;
+			buildPhases = (
+				F4EA95681D080C2300268BDE /* Sources */,
+				F4EA95691D080C2300268BDE /* Frameworks */,
+				F4EA956A1D080C2300268BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EA956E1D080C2300268BDE /* PBXTargetDependency */,
+			);
+			name = tangoTests;
+			productName = tangoTests;
+			productReference = F4EA956C1D080C2300268BDE /* tangoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4EA95761D080C2300268BDE /* tangoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4EA95861D080C2300268BDE /* Build configuration list for PBXNativeTarget "tangoUITests" */;
+			buildPhases = (
+				F4EA95731D080C2300268BDE /* Sources */,
+				F4EA95741D080C2300268BDE /* Frameworks */,
+				F4EA95751D080C2300268BDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4EA95791D080C2300268BDE /* PBXTargetDependency */,
+			);
+			name = tangoUITests;
+			productName = tangoUITests;
+			productReference = F4EA95771D080C2300268BDE /* tangoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4EA95501D080C2300268BDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "内山香";
+				TargetAttributes = {
+					F4EA95571D080C2300268BDE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					F4EA956B1D080C2300268BDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4EA95571D080C2300268BDE;
+					};
+					F4EA95761D080C2300268BDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = F4EA95571D080C2300268BDE;
+					};
+				};
+			};
+			buildConfigurationList = F4EA95531D080C2300268BDE /* Build configuration list for PBXProject "tango" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4EA954F1D080C2300268BDE;
+			productRefGroup = F4EA95591D080C2300268BDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4EA95571D080C2300268BDE /* tango */,
+				F4EA956B1D080C2300268BDE /* tangoTests */,
+				F4EA95761D080C2300268BDE /* tangoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4EA95561D080C2300268BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EA95661D080C2300268BDE /* LaunchScreen.storyboard in Resources */,
+				F4EA95631D080C2300268BDE /* Assets.xcassets in Resources */,
+				F4EA95611D080C2300268BDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA956A1D080C2300268BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA95751D080C2300268BDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4EA95541D080C2300268BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EA955E1D080C2300268BDE /* ViewController.swift in Sources */,
+				F4EA955C1D080C2300268BDE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA95681D080C2300268BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EA95711D080C2300268BDE /* tangoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4EA95731D080C2300268BDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4EA957C1D080C2300268BDE /* tangoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4EA956E1D080C2300268BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4EA95571D080C2300268BDE /* tango */;
+			targetProxy = F4EA956D1D080C2300268BDE /* PBXContainerItemProxy */;
+		};
+		F4EA95791D080C2300268BDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4EA95571D080C2300268BDE /* tango */;
+			targetProxy = F4EA95781D080C2300268BDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4EA955F1D080C2300268BDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EA95601D080C2300268BDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4EA95641D080C2300268BDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4EA95651D080C2300268BDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4EA957E1D080C2300268BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4EA957F1D080C2300268BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4EA95811D080C2300268BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.tango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4EA95821D080C2300268BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tango/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.tango;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F4EA95841D080C2300268BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.tangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tango.app/tango";
+			};
+			name = Debug;
+		};
+		F4EA95851D080C2300268BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tangoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.tangoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tango.app/tango";
+			};
+			name = Release;
+		};
+		F4EA95871D080C2300268BDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.tangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tango;
+			};
+			name = Debug;
+		};
+		F4EA95881D080C2300268BDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tangoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = litech.com.tangoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tango;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4EA95531D080C2300268BDE /* Build configuration list for PBXProject "tango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EA957E1D080C2300268BDE /* Debug */,
+				F4EA957F1D080C2300268BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4EA95801D080C2300268BDE /* Build configuration list for PBXNativeTarget "tango" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EA95811D080C2300268BDE /* Debug */,
+				F4EA95821D080C2300268BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4EA95831D080C2300268BDE /* Build configuration list for PBXNativeTarget "tangoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EA95841D080C2300268BDE /* Debug */,
+				F4EA95851D080C2300268BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F4EA95861D080C2300268BDE /* Build configuration list for PBXNativeTarget "tangoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4EA95871D080C2300268BDE /* Debug */,
+				F4EA95881D080C2300268BDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4EA95501D080C2300268BDE /* Project object */;
+}
